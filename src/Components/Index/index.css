@@ -1,0 +1,10 @@
+*{
+	margin:0;
+	padding: 0;
+}
+#index{
+	padding-top: 44px;
+}
+.am-whitespace{
+	display: none;
+}

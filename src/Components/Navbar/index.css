@@ -1,0 +1,36 @@
+#header{
+	height: 44px;
+	z-index: 5;
+	width: 100%;
+	background: #fff;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+}
+#header a{
+	text-decoration: none;
+	color: #333;
+}
+#header .one img{
+	width: 52px;
+	height: 19px;
+	margin-top: -10px;
+	position: absolute;
+	top: 50%;
+	left: 10px;
+}
+#header .two img{
+	width: 60px;
+	height: 25px;
+}
+#header .three img{
+	width: 28px;
+	height: 28px;
+	margin-top: -14px;
+	position: absolute;
+	top: 50%;
+	right: 10px;
+}
+

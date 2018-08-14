@@ -1,0 +1,21 @@
+.example-enter {
+
+  transform: translateY(-100%);
+}
+
+.example-enter.example-enter-active {
+
+   transform: translateY(0px);
+  transition: all 500ms ;
+}
+
+.example-leave {
+
+   transform: translateY(0px);
+}
+
+.example-leave.example-leave-active {
+
+  transform: translateY(-100%);
+  transition: all 300ms ;
+}

@@ -1,0 +1,93 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+#aside{
+	height: 667px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	z-index: 6;
+	background:rgba(0,0,0,.1);
+}
+#aside ul li{
+	list-style: none;
+}
+#aside div{
+	display: block;
+}
+#aside a{
+	text-decoration: none;
+}
+#aside .Sidebarbox{
+	height: 402px;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 20px;
+	background-color: #fff;
+}
+
+#aside .Sidebarlogo{
+	width: 80px;
+    height: 80px;
+    margin-top: 30px;
+    overflow: hidden;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+
+
+}
+#aside .Sidebarlogo img{
+	width: 80px;
+	height: 80px;
+}
+
+
+#aside .loginText{
+	margin-top: 25px;
+    font-style: normal;
+    color: #333;
+
+}
+#aside .loginText a{
+	color: #333;
+}
+
+
+
+#aside .SidebarNavBox{
+	width: 100%;
+	margin-top:10px;
+}
+#aside .SidebarNavBox a{
+		display: flex;
+	    justify-content: center;
+	    align-items: center;
+	    height: 57px;
+	    margin: 0 20px;
+	    font-size: 16px;
+	    font-weight: 700;
+	    color: #333;
+	    border-bottom: 1px solid #ebebeb;
+}
+#aside .aaa{
+	flex:1;
+	background: rgba(0,0,0,.4);
+
+}
+#aside .error{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+
+}
+#aside .error img{
+	width: 28px;
+	height: 28px;
+}
