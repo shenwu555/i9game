@@ -4,9 +4,11 @@ import "./index.css";
 class Download extends Component{
 
 	render(){
-		return <div>
+		return <div id="download">
+			{/*<div className="contentbox">
+				
+			</div>*/}
 			
-			Download
 		</div>
 	}
 }

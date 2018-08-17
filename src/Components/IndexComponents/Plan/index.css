@@ -1,0 +1,103 @@
+#fang{
+	height: 100%;
+	width: 100%;
+
+	
+}
+#fang .box2{
+	
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+#fang .box2 .logo{
+	height: 43px;
+	border-radius: 100%;
+	margin-top:10px;
+	margin-left:9px;
+	float: left;
+
+}
+#fang .box2 .er1{
+	float: left;
+	margin-top:28px;
+	color: #999999;
+	font-size: 12px;
+	margin-left:10px;
+}
+#fang .box2 .yu{
+	height: 32px;
+	width: 70px;
+	background: #f83f2b;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-right:10px;
+	float: right;
+	text-align: center;
+	line-height: 32px;
+	color: #fff;
+	font-size: 16px;
+}
+.ad{
+	width: 355px;
+	height: 200px;
+	margin-top: 68px;
+	margin-left: 10px;
+
+}
+.ad img{
+	width: 355px;
+
+
+}
+.er{
+	height: 30px;
+	width: 56px;
+	float: left;
+	margin-top: 12px;
+	margin-left:10px;
+	font-weight: bolder;
+
+
+}
+
+.MM{
+	width: 43px;
+	height: 20px;
+	background: #0bc8a6;
+	transform:skew(-20deg);
+	float: left;
+	color: #fff;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-radius: 3px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 12px;
+}
+.BB{
+	
+	width: 43px;
+	height: 20px;
+	background: #4197f6;
+	transform:skew(-20deg);
+	float: left;
+	color: #fff;
+	margin-top: 10px;
+	margin-left: 3px;
+	border-radius: 3px;
+	line-height: 20px;
+	text-align: center;
+	font-size: 12px;
+}
+.bian{
+	height: 8px;
+	width: 100%;
+	background: #f0f0f0;
+	float: left;
+}

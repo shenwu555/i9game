@@ -17,6 +17,9 @@ import Index from "../Components/Index"
 import User from "../Components/User"
 import Login from "../Components/Login"
 import Register from "../Components/Register"
+import fzscjh from "../Components/fzscjh"
+import Strategy from "../Components/IndexComponents/Strategy"
+
 const router = ( 
 	<Router>
 			<App>
@@ -30,6 +33,10 @@ const router = (
 				<Route path="/user" component={User}/>
 				<Route path="/login" component={Login}/>
 				<Route path="/register" component={Register}/>
+				<Route path="#" component={Strategy}/>
+				
+				
+				<Route path="/fzscjh/:kerwinid" component={fzscjh}/>
 				
 
 

@@ -1,0 +1,118 @@
+#recommend .all{
+	padding-top: 15px;
+}
+#recommend .title{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: relative;
+}
+#recommend .title .one{
+	display: block;
+	text-decoration: none;
+	color: #333;
+}
+#recommend .title .one img{
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	background-color: #666;
+}
+#recommend .title .two{
+	display: flex;
+	flex-direction: column;
+	width: 207px;
+	margin-left: 10px;
+	text-decoration: none;
+	color: #333;
+}
+#recommend .title .two span{
+	margin-top: 8px;
+	color: #999;
+	font-size: 12px;
+}
+
+#recommend .title .three{
+	background-image: linear-gradient(90deg,#0bc8a6,#38d2ab);
+	display: flex;
+	width: 70px;
+	height: 32px;
+	border-radius: 16px;
+	line-height: 32px;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: #333;
+	display: inline-block;
+	text-align: center;
+}
+#recommend .title .three span{
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 0;
+	opacity: 1;
+
+}
+ #recommend .pic{
+	display: block;
+	margin-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color: #333;
+}
+ #recommend .pic .ban{
+	width: 355px;
+	height: 200px;
+	background: #666;
+	position: relative;
+	overflow: hidden;
+}
+ #recommend .pic .ban img{
+ 	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+#recommend .bor{
+	height: 10px;
+	background: #f0f0f0;
+
+}
+#recommend .last{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 12px;
+	padding-bottom: 15px;
+}
+#recommend .last .game{
+	font-weight: 700;
+	color: #333;
+}
+#recommend .last .label{
+	margin-left: 6px;
+	height: 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+#recommend .last .label .lab{
+	background-color: #0bc8a6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 3px;
+	transform: skew(-20deg);
+	display: inline-block;
+	margin-left: 5px;
+	width: 42px;
+	text-align: center;
+	color: #fff;
+}
+#recommend .last .label .aaa{
+	background-color: #4197f6;
+}
